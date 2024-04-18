@@ -387,6 +387,9 @@ body {
 
 .clients-text {
     text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    color: #212121;
 }
 
 .clients-social .container{
