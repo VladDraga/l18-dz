@@ -203,7 +203,7 @@ figure:hover{
     text-decoration: none;
     padding: 10px;
     border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: rgba(255, 255, 255, 0.089);
 }
 
 .icon-link-footer:hover {
