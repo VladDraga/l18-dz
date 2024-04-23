@@ -19,12 +19,6 @@ body {
     margin: 0 auto;
 }
 
-.container1 {
-    margin: 0 auto;
-    width: 180px;
-    height: 44px;
-}
-
 .navigation-list {
     display: flex;
     text-decoration: none;
@@ -364,7 +358,7 @@ body {
     margin-bottom: 25px;
 }
 
-.social .container1 {
+.social {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -422,23 +416,14 @@ body {
 }
 
 .icon-link {
-    display: flex;
-}
-
-.icon-link {
     display: inline-block;
     color: #AFB1B8;
     text-decoration: none;
-    padding: 10px;
 }
 
 .icon-link:hover {
     color: #ffffff;
     background-color: var(--color-acent);
-}
-
-.icon-link:not(:last-child) {
-    margin-right: 20px;
 }
 
 .icon-link-footer {
