@@ -419,6 +419,7 @@ body {
     display: inline-block;
     color: #AFB1B8;
     text-decoration: none;
+    padding: 10px;
 }
 
 .icon-link:hover {
