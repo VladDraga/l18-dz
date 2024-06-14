@@ -152,7 +152,8 @@ body {
 }
 
 .team-title {
-    padding-bottom: 50px;
+    margin-top: 130px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -255,11 +256,11 @@ body {
     padding-bottom: 30px;
 }
 
-.footer .container{
+.footer .container {
     display: flex;
 }
 
-.footer{
+.footer {
     background-color: #2F303A;
     padding: 80px 0;
 }
@@ -308,6 +309,7 @@ body {
 .div-photo1 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .div-photo2 {
@@ -375,7 +377,7 @@ body {
     color: white;
 }
 
-.icon-fonts{
+.icon-fonts {
     font-size: 19px;
 }
 
@@ -386,13 +388,13 @@ body {
     color: #212121;
 }
 
-.clients-social .container{
+.clients-social .container {
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-.clients-social{
+.clients-social {
     margin: 50px 0 94px 0;
 }
 
@@ -441,11 +443,11 @@ body {
     background-color: var(--color-acent);
 }
 
-.footer-links{
+.footer-links {
     margin-left: 70px;
 }
 
-.footer-links-text{
+.footer-links-text {
     font-weight: 700;
     font-size: 14px;
     color: #ffffffd0;
@@ -453,14 +455,40 @@ body {
     margin-bottom: 20px;
 }
 
-.icon-fonts-link{
+.icon-fonts-link {
     font-size: 20px;
 }
 
-.icon-link-footer:not(:last-child){
+.icon-link-footer:not(:last-child) {
     margin-right: 5px;
 }
 
-.team{
+.team {
     background-color: #F5F4FA;
+}
+
+.activity-photo {
+    width: 370px;
+    height: 290px;
+    position: absolute;
+}
+
+.activity-photo-p {
+    position: relative;
+    top: 220px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity-photo-span {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
 }

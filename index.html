@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="webstudiophoto/icons/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,7 +38,7 @@
         <section class="solution">
             <div class="container">
                 <h1 class="solution-text">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-                <button class="solution-button" type="button">Замовити послугу</button>
+                <button class="solution-button" type="button" data-modal-open>Замовити Послугу</button>
             </div>
         </section>
         <section class="info">
@@ -70,9 +71,18 @@
             <div class="container">
                 <h1 class="activity-title">Чим ми займаємося</h1>
                 <div class="div-photo1">
-                    <img class="activity-photo" src="webstudiophoto/boxone.jpg" alt="">
-                    <img class="activity-photo" src="webstudiophoto/boxtwo.jpg" alt="">
-                    <img class="activity-photo" src="webstudiophoto/boxthree.jpg" alt="">
+                    <div class="activity1">
+                        <img class="activity-photo" src="webstudiophoto/boxone.jpg" alt="">
+                        <p class="activity-photo-p"> <span class="activity-photo1-span">Десктопні додатки</span></p>
+                    </div>
+                    <div class="activity2">
+                        <img class="activity-photo" src="webstudiophoto/boxtwo.jpg" alt="">
+                        <p class="activity-photo-p"> <span class="activity-photo2-span">Мобільні додатки</span></p>
+                    </div>
+                    <div class="activity3">
+                        <img class="activity-photo" src="webstudiophoto/boxthree.jpg" alt="">
+                        <p class="activity-photo-p"> <span class="activity-photo3-span">Дизайнерські рішення</span></p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -86,10 +96,10 @@
                             <h4 class="figure1-name">Ігор Дем'яненко</h4>
                             <p class="figure1-text">Product Designer</p>
                             <div class="social">
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-insta"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-twitter"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-facebook"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-linkedin"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-insta"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-twitter"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-facebook"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-linkedin"></i></a>
                             </div>
                         </div>
                     </li>
@@ -100,10 +110,10 @@
                             <h4 class="figure2-name">Ольга Рєпіна</h4>
                             <p class="figure2-text">Frontend Developer</p>
                             <div class="social">
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-insta"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-twitter"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-facebook"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-linkedin"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-insta"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-twitter"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-facebook"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-linkedin"></i></a>
                             </div>
                         </div>
                     </li>
@@ -114,10 +124,10 @@
                             <h4 class="figure3-name">Микола Тарасов</h4>
                             <p class="figure3-text">Marketing</p>
                             <div class="social">
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-insta"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-twitter"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-facebook"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-linkedin"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-insta"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-twitter"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-facebook"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-linkedin"></i></a>
                             </div>
                         </div>
                     </li>
@@ -128,10 +138,10 @@
                             <h4 class="figure4-name">Михайло Єрмаков</h4>
                             <p class="figure4-text">UI Designer</p>
                             <div class="social">
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-insta"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-twitter"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-facebook"></i></a>
-                                    <a class="icon-link" href="#"><i class="icon-fonts icon-linkedin"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-insta"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-twitter"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-facebook"></i></a>
+                                <a class="icon-link" href="#"><i class="icon-fonts icon-linkedin"></i></a>
                             </div>
                         </div>
                     </li>
@@ -164,23 +174,24 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-mail-tel">
-            <img class="footer-photo" src="webstudiophoto/webstudio.svg" alt="">
-            <p class="footer-a">м. Київ, пр-т Лесі Українки, 26</p>
-            <p class="footer-ab"><a class="footer-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-            <p class="footer-ab1"><a class="footer-tel" href="tel:+38 096 111 11 11">+38 096 111 1111</a></p>
-        </div>
+                <img class="footer-photo" src="webstudiophoto/webstudio.svg" alt="">
+                <p class="footer-a">м. Київ, пр-т Лесі Українки, 26</p>
+                <p class="footer-ab"><a class="footer-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
+                <p class="footer-ab1"><a class="footer-tel" href="tel:+38 096 111 11 11">+38 096 111 1111</a></p>
+            </div>
             <div class="footer-links">
                 <p class="footer-links-text">ПРИЄДНУЙТЕСЬ</p>
                 <div class="footer-links-all">
-                        <a class="icon-link-footer" href="#"><i class="icon-fonts-link icon-insta"></i></a>
-                        <a class="icon-link-footer" href="#"><i class="icon-fonts-link icon-twitter"></i></a>
-                        <a class="icon-link-footer" href="#"><i class="icon-fonts-link icon-facebook"></i></a>
-                        <a class="icon-link-footer" href="#"><i class="icon-fonts-link icon-linkedin"></i></a>
-                    </div>
+                    <a class="icon-link-footer" href="#"><i class="icon-fonts-link icon-insta"></i></a>
+                    <a class="icon-link-footer" href="#"><i class="icon-fonts-link icon-twitter"></i></a>
+                    <a class="icon-link-footer" href="#"><i class="icon-fonts-link icon-facebook"></i></a>
+                    <a class="icon-link-footer" href="#"><i class="icon-fonts-link icon-linkedin"></i></a>
                 </div>
             </div>
         </div>
+        </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
